@@ -35,13 +35,22 @@
                                     <action selector="bt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QsG-5i-edc"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6y-vK-NJN">
+                                <rect key="frame" x="156" y="478.5" width="62" height="30"/>
+                                <state key="normal" title="单张图片"/>
+                                <connections>
+                                    <action selector="single:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sEJ-o3-OG1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="c6y-vK-NJN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1Xy-6z-kVf"/>
                             <constraint firstItem="am6-I9-9wI" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="GLJ-dv-KZ8"/>
                             <constraint firstItem="Inp-ea-xfB" firstAttribute="top" secondItem="am6-I9-9wI" secondAttribute="bottom" constant="50" id="PJs-aA-KJY"/>
                             <constraint firstItem="am6-I9-9wI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fma-tn-zDY"/>
                             <constraint firstItem="Inp-ea-xfB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="qiN-Ol-kaQ"/>
+                            <constraint firstItem="c6y-vK-NJN" firstAttribute="top" secondItem="Inp-ea-xfB" secondAttribute="bottom" constant="50" id="zhY-Nh-aMw"/>
                         </constraints>
                     </view>
                 </viewController>

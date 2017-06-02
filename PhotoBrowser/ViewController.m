@@ -34,7 +34,15 @@
     browser.dataSource = self.dataource;
     if (sender.tag) {
         browser.index = 3;
+        browser.dataSource = @[[UIImage imageNamed:@"1"],[UIImage imageNamed:@"2"],[UIImage imageNamed:@"3"],[UIImage imageNamed:@"4"],[UIImage imageNamed:@"5"], @"https://image.artplanet.cn/article/50fbc311-86f8-488b-967b-d5159638a591.jpg"];
     }
+    browser.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
+    [self presentViewController:browser animated:YES completion:nil];
+}
+
+- (IBAction)single:(id)sender {
+    ZXPhotoBrowser *browser = [[ZXPhotoBrowser alloc] init];
+    browser.dataSource = @[[UIImage imageNamed:@"1"]];
     browser.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     [self presentViewController:browser animated:YES completion:nil];
 }

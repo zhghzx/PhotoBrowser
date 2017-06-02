@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -24,14 +24,13 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ouW-cj-6V6">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yr0-y2-lGy">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Yr0-y2-lGy">
                                         <rect key="frame" x="0.0" y="268" width="414" height="200"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="ifY-e0-AFf"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="Yr0-y2-lGy" firstAttribute="leading" secondItem="ouW-cj-6V6" secondAttribute="leading" id="0GG-jY-QZH"/>
                                     <constraint firstAttribute="trailing" secondItem="Yr0-y2-lGy" secondAttribute="trailing" id="0dT-Bb-ZxG"/>
@@ -49,33 +48,22 @@
                             <constraint firstAttribute="trailing" secondItem="ouW-cj-6V6" secondAttribute="trailing" id="yP1-Hq-Ygc"/>
                         </constraints>
                     </scrollView>
-                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxQ-XC-u1w">
-                        <rect key="frame" x="327" y="681" width="62" height="30"/>
-                        <state key="normal" title="保存图片">
-                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        </state>
-                        <connections>
-                            <action selector="saveImage:" destination="gTV-IL-0wX" eventType="touchUpInside" id="aCk-Lj-8fX"/>
-                        </connections>
-                    </button>
                 </subviews>
             </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="FKp-MX-ycF" secondAttribute="trailing" id="2LB-Ch-ggx"/>
                 <constraint firstItem="FKp-MX-ycF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="GrG-w3-7qb"/>
-                <constraint firstAttribute="trailing" secondItem="cxQ-XC-u1w" secondAttribute="trailing" constant="25" id="jAb-YA-2zC"/>
-                <constraint firstAttribute="bottom" secondItem="cxQ-XC-u1w" secondAttribute="bottom" constant="25" id="nNb-oo-uTt"/>
                 <constraint firstAttribute="bottom" secondItem="FKp-MX-ycF" secondAttribute="bottom" id="pVF-O8-iCZ"/>
                 <constraint firstItem="FKp-MX-ycF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="uDQ-je-gky"/>
             </constraints>
             <connections>
                 <outlet property="imageView" destination="Yr0-y2-lGy" id="kKA-Io-XpZ"/>
                 <outlet property="imageViewHeight" destination="ifY-e0-AFf" id="NQ9-Bv-Kmx"/>
-                <outlet property="saveBtn" destination="cxQ-XC-u1w" id="OLZ-RU-LHt"/>
                 <outlet property="scrollContentView" destination="ouW-cj-6V6" id="tFy-Sf-Ukz"/>
                 <outlet property="scrollContentViewHeight" destination="2uk-Z4-wiE" id="pNI-6s-h7L"/>
             </connections>
-            <point key="canvasLocation" x="165" y="-141"/>
+            <point key="canvasLocation" x="35" y="-152"/>
         </collectionViewCell>
     </objects>
 </document>

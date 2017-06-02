@@ -28,6 +28,7 @@
 		5D1C65061ECD6C24009CE90E /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1C64F61ECD6C24009CE90E /* UIImageView+HighlightedWebCache.m */; };
 		5D1C65071ECD6C24009CE90E /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1C64F81ECD6C24009CE90E /* UIImageView+WebCache.m */; };
 		5D1C65081ECD6C24009CE90E /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1C64FA1ECD6C24009CE90E /* UIView+WebCacheOperation.m */; };
+		5D1E50271EE111C80038485B /* UIView+ZXExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D1E50261EE111C80038485B /* UIView+ZXExt.m */; };
 		5D7767151ED5576500759EB4 /* ZXPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7767131ED5576500759EB4 /* ZXPhotoView.m */; };
 		5D7767161ED5576500759EB4 /* ZXPhotoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D7767141ED5576500759EB4 /* ZXPhotoView.xib */; };
 /* End PBXBuildFile section */
@@ -74,6 +75,8 @@
 		5D1C64F81ECD6C24009CE90E /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		5D1C64F91ECD6C24009CE90E /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		5D1C64FA1ECD6C24009CE90E /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		5D1E50251EE111C80038485B /* UIView+ZXExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZXExt.h"; sourceTree = "<group>"; };
+		5D1E50261EE111C80038485B /* UIView+ZXExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZXExt.m"; sourceTree = "<group>"; };
 		5D7767121ED5576500759EB4 /* ZXPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXPhotoView.h; sourceTree = "<group>"; };
 		5D7767131ED5576500759EB4 /* ZXPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXPhotoView.m; sourceTree = "<group>"; };
 		5D7767141ED5576500759EB4 /* ZXPhotoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXPhotoView.xib; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 				5D1C64DD1ECD6C24009CE90E /* SDWebImage */,
 				5D1C64C31ECD66A7009CE90E /* AppDelegate.h */,
 				5D1C64C41ECD66A7009CE90E /* AppDelegate.m */,
+				5D1E50251EE111C80038485B /* UIView+ZXExt.h */,
+				5D1E50261EE111C80038485B /* UIView+ZXExt.m */,
 				5D1C64D71ECD672F009CE90E /* ZXPhotoBrowser.h */,
 				5D1C64D81ECD672F009CE90E /* ZXPhotoBrowser.m */,
 				5D7767121ED5576500759EB4 /* ZXPhotoView.h */,
@@ -252,6 +257,7 @@
 				5D1C65081ECD6C24009CE90E /* UIView+WebCacheOperation.m in Sources */,
 				5D1C65041ECD6C24009CE90E /* UIImage+GIF.m in Sources */,
 				5D1C65021ECD6C24009CE90E /* SDWebImagePrefetcher.m in Sources */,
+				5D1E50271EE111C80038485B /* UIView+ZXExt.m in Sources */,
 				5D1C64C51ECD66A7009CE90E /* AppDelegate.m in Sources */,
 				5D1C64C21ECD66A7009CE90E /* main.m in Sources */,
 				5D1C64FF1ECD6C24009CE90E /* SDWebImageDownloader.m in Sources */,
